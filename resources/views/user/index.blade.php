@@ -47,6 +47,7 @@
         <div class="card">
             <div class="card-header text-center">
                 <input type="text" class="search-click" name="" id="search" placeholder="search here..." />
+                <a href="{{route('customer.create')}}" class="btn">Create new user</a>
             </div>
             <div class="card-body">
                 @if (count($users)>0)
